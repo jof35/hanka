@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     header {
       text-align: center;
@@ -17,13 +18,14 @@
     }
 
     ul {
-      padding: 20px;
+      padding: 10px;
       background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
+        text-decoration: underline;
+      }
+      li {
+        display: inline;
+        padding: 0px 50px 0px 50px;
+      }
     article {
       max-width: 500px;
       padding: 20px;
@@ -47,13 +49,16 @@
     <h2>Are you hungry?</h2>
     <h3>Here are three amazing recipes for you!</h2>
     <ul>
-      <p><a href="https://food52.com/">Click here for more food!</a>
-      <a href="https://www.instagram.com/breakfastinsydney/">Inspiration</a>
-      <a href="https://www.youtube.com/user/strictlydumpling">Click here for some food videos</a></p>
+      <p><li><a href="https://food52.com/">Click here for more food!</a></li>
+      <li><a href="https://www.instagram.com/breakfastinsydney/">Inspiration</a></li>
+      <li><a href="https://www.youtube.com/user/strictlydumpling">Click here for some food videos</a></li></p>
 
     </ul>
   </header>
-
+  <tr>
+  <table style="width: 100%">
+<div class="jumbotron">
+  <div class="row">
 <article>
   <h2>Chimney Cake</h2>
   <p>2 x 7 g sachets dried yeast</p>
@@ -77,8 +82,14 @@
 <p>Place remaining 1 cup sugar on a plate. Brush kurtosh liberally with oil, then roll in sugar, pressing to coat well. Place on their sides on a lined oven tray and bake, turning halfway through cooking, for 10 minutes or until golden.</p>
 
 <p>Remove from oven, stand upright and, using foil at top, twist can to remove. Using a knife, spread ¼ cup Nutella around inside of each kurtosh. Dust with cocoa to serve.</p>
-  <button>Like</button>
+  <button type="button" class="btn btn-success">Like</button>
   </article>
+</div>
+</div>
+</tr>
+<tr>
+  <div class="jumbotron">
+    <div class="row">
   <article>
   <h2>Duck Noodle Stir Fry</h2>
 <p>  (serves 2)</p>
@@ -109,8 +120,14 @@
 <p>Step 8: Put the egg noodles in hot water, until soft.</p>
 <p>Step 9: To assemble the noodle soup, in a big bowl, mix chili oil (to your preference of spiciness), sesame oil and some crushed garlic.</p>
 <p>Step 10: put some of the soup that’s been simmering for an hour in the bowl; mix with the seasonings. Please noodles and toppings on top and enjoy!</p>
-  <button>Like</button>
+  <button type="button" class="btn btn-success">Like</button>
     </article>
+  </div>
+</div>
+</tr>
+<tr>
+  <div class="jumbotron">
+    <div class="row">
   <article>
   <h2>Waffle Berry Pudding</h2>
   <p>300g waffles</p>
@@ -125,7 +142,10 @@
 <p>1. Preheat oven to 180°C. Chop up the waffles and place in layers in a deep ovenproof dish with the chocolate and raspberries until all of this is used up.</p>
 <p>2. Combine sugar, flour, egg, crème fraiche and vanilla essence in a bowl and whisk until mixed.</p>
 <p>3. Bake for 30 minutes until golden brown and smelling lovely. Leave to cool for 10 minutes before sprinkling with icing sugar and serving with a dollop of your favourite ice-cream.</p>
-  <button>Like</button>
+  <button type="button" class="btn btn-success">Like</button>
   </article>
+</div>
+</div>
+</tr>
   <script>$("button").on("click", function(){ alert("clicked!") })</script>
 </body>
