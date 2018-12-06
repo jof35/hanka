@@ -10,8 +10,6 @@
       color: white;}
     a {
       color: white;
-      font-size: 20px;
-      font-style: bold;
     }
     h1 {
       font-size: 70px;
@@ -20,12 +18,11 @@
     ul {
       padding: 10px;
       background: rgba(0,0,0,0.5);
-        text-decoration: underline;
-      }
-      li {
-        display: inline;
-        padding: 0px 50px 0px 50px;
-      }
+    }
+    li {
+      display: inline;
+      padding: 0px 50px 0px 10px;
+    }
     article {
       max-width: 500px;
       padding: 20px;
@@ -49,16 +46,16 @@
     <h2>Are you hungry?</h2>
     <h3>Here are three amazing recipes for you!</h2>
     <ul>
-      <p><li><a href="https://food52.com/">Click here for more food!</a></li>
-      <li><a href="https://www.instagram.com/breakfastinsydney/">Inspiration</a></li>
-      <li><a href="https://www.youtube.com/user/strictlydumpling">Click here for some food videos</a></li></p>
-
+      <li><a href="#">Chimney Bread</a></li>
+      <li><a href="#">Duck Noodle Soup</a></li>
+      <li><a href="#">Waffle Berry Pudding</a></li>
     </ul>
   </header>
   <tr>
-  <table style="width: 100%">
-<div class="jumbotron">
-  <div class="row">
+  <table style="width:100%">
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
 <article>
   <h2>Chimney Cake</h2>
   <p>2 x 7 g sachets dried yeast</p>
@@ -82,51 +79,19 @@
 <p>Place remaining 1 cup sugar on a plate. Brush kurtosh liberally with oil, then roll in sugar, pressing to coat well. Place on their sides on a lined oven tray and bake, turning halfway through cooking, for 10 minutes or until golden.</p>
 
 <p>Remove from oven, stand upright and, using foil at top, twist can to remove. Using a knife, spread ¼ cup Nutella around inside of each kurtosh. Dust with cocoa to serve.</p>
-  <button type="button" class="btn btn-success">Like</button>
+  <button  type="button" class="btn btn-success">Like</button>
   </article>
 </div>
-</div>
 </tr>
 <tr>
-  <div class="jumbotron">
-    <div class="row">
+  <div class="row">
   <article>
   <h2>Duck Noodle Stir Fry</h2>
-<p>  (serves 2)</p>
-<p>198.5g of duck breast</p>
-<p>Egg noodles</p>
-<p>1 big White onion, chopped in half</p>
-<p>Red onions</p>
-<p>Bean sprouts</p>
-<p>Radish</p>
-<p>Pak choy</p>
-<p>Red chilies</p>
-<p>Chili oil</p>
-<p>Block of miso soup</p>
-<p>450 ml Chicken broth</p>
-<p>4 Garlic cloves, crushed</p>
-<p>1 Small ginger root, cut in half</p>
-<p>Sesame oil</p>
-<p>Spring onions</p>
-<p>Salt</p>
-<p>Pepper</p>
-<p>Step 1: Char the two pieces of white onion, along with the ginger and garlic in a dry, hot saucepan for 5 – 8 minutes on low heat. Pre-heat the oven to 200 C/ Gas mark 6</p>
-<p>Step 2: Pour the 450ml of chicken broth in the saucepan along with the onion, ginger and garlic. Add the Miso soup block and stir.</p>
-<p>Step 3: Leave for 40 – 1hr to simmer on low heat.</p>
-<p>Step 4: To prepare the duck, score the skin lightly, season with salt and pepper.</p>
-<p>Step 5: Seer skin side down on a hot pan for 4-5 mins; the same to the other side.</p>
-<p>Step 6: Put the pan with the duck in the oven for further 10 minutes.</p>
-<p>Step 7: For the toppings, chop the Pak choy, red onions, red chilies, radish, spring onions to your liking.</p>
-<p>Step 8: Put the egg noodles in hot water, until soft.</p>
-<p>Step 9: To assemble the noodle soup, in a big bowl, mix chili oil (to your preference of spiciness), sesame oil and some crushed garlic.</p>
-<p>Step 10: put some of the soup that’s been simmering for an hour in the bowl; mix with the seasonings. Please noodles and toppings on top and enjoy!</p>
-  <button type="button" class="btn btn-success">Like</button>
+  <button  type="button" class="btn btn-success">Like</button>
     </article>
   </div>
-</div>
-</tr>
-<tr>
-  <div class="jumbotron">
+    </tr>
+  <tr>
     <div class="row">
   <article>
   <h2>Waffle Berry Pudding</h2>
@@ -146,6 +111,8 @@
   </article>
 </div>
 </div>
+</div>
 </tr>
-  <script>$("button").on("click", function(){ alert("clicked!") })</script>
+  <script>$("button").on("click", function(){ alert("Thankyou for liking!") })</script>
+  </table>
 </body>
